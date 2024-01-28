@@ -1,0 +1,8 @@
+$(document).ready(function () {
+    $('#datepicker').datepicker({
+        format: "mm/dd/yyyy", // Format daty, dostosuj do własnych potrzeb
+        todayBtn: "linked",
+        autoclose: true,
+        todayHighlight: true
+    });
+});

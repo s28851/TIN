@@ -1,0 +1,120 @@
+/* Resetowanie domyślnych stylów */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    color: #680260;
+  }
+  p{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Nagłówek */
+  header {
+    background-color: #680260;
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffc107;
+  }
+  
+  /* Treść strony głównej */
+  main {
+    margin-top: 80px; /* Zapobiega przykryciu treści przez nagłówek */
+    padding: 20px;
+    flex: 1;
+  }
+  
+  /* Stopka */
+  footer {
+    background-color: #680260;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: auto;
+  }
+  .btn.btn-primary {
+    font-size: 30px;
+  }
+
+  #about > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .onaslewe{
+    text-align: center;
+  }
+
+  #about button {
+    margin-bottom: 10px;
+  }
+  #about > div >div {
+    width: 50%; 
+    box-sizing: border-box;
+    font-size: 30px;
+    padding: 80px;
+  }
+
+  .sub-services-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sub-services-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .sub-services-content {
+    display: block;
+  }
+
+  section {
+    margin:40px;
+  }
+
+  

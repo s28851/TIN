@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)file:///D:/PJATK/S3%20TIN/Projekt/make_appointment.html -->
+<html lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Umów wizytę - Planer Wizyt_files/styles.css">
+  <script src="./Umów wizytę - Planer Wizyt_files/jquery-3.7.1.slim.min.js.pobrane"></script>
+  <script src="./Umów wizytę - Planer Wizyt_files/popper.min.js.pobrane"></script>
+  <script src="./Umów wizytę - Planer Wizyt_files/bootstrap.min.js.pobrane"></script>
+  <title>Umów wizytę - Planer Wizyt</title>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <!-- Wstaw tutaj kod obrazu/logo -->
+    </div>
+    <nav>
+      <ul>
+        <li><a href="file:///D:/PJATK/S3%20TIN/Projekt/index.html">Home</a></li>
+        <li><a href="file:///D:/PJATK/S3%20TIN/Projekt/about.html">O nas</a></li>
+        <li class="dropdown">
+            <a href="file:///D:/PJATK/S3%20TIN/Projekt/services.html#finansowe" class="dropbtn">Nasze usługi</a>
+            <div class="sub-services-content">
+              <a href="file:///D:/PJATK/S3%20TIN/Projekt/services.html#finansowe" class="sub-services">Doradztwo finansowe</a>
+              <a href="file:///D:/PJATK/S3%20TIN/Projekt/services.html#prawne" class="sub-services">Porady prawne</a>
+              <a href="file:///D:/PJATK/S3%20TIN/Projekt/services.html#menadzerski" class="sub-services">Konsulting menadżerski</a>
+              <a href="file:///D:/PJATK/S3%20TIN/Projekt/services.html#zespol" class="sub-services">Integracje zespołów</a>
+            </div>
+          </li>
+        <li><a href="file:///D:/PJATK/S3%20TIN/Projekt/make_appointment.html">Umów wizytę</a></li>
+        <li><a href="file:///D:/PJATK/S3%20TIN/Projekt/cooperation.html">Współpraca</a></li>
+        <li><a href="file:///D:/PJATK/S3%20TIN/Projekt/contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="make-appointment">
+        <h1>Umów wizytę</h1>
+
+        <div class="appointment-form">
+            <label for="appointment-topic">Wybierz temat spotkania:</label>
+            <select id="appointment-topic" name="appointment-topic">
+                <!-- Tu dodaj opcje zgodne z usługami, np. Doradztwo finansowe, Porady prawne itp. -->
+                <option value="financial-advisory">Doradztwo finansowe</option>
+                <option value="legal-advisory">Porady prawne</option>
+                <option value="consulting">Konsulting menadżerski</option>
+                <option value="integration">Integracja zespołów</option>
+            </select>
+
+            <div class="calendar">
+                <input type="text" id="datepicker">
+            </div>
+
+            <div class="available-hours">
+                <!-- Tutaj będzie wyświetlana lista dostępnych godzin -->
+            </div>
+
+            <button id="confirm-appointment" disabled="">Umów wizytę</button>
+        </div>
+
+        <div class="scheduled-appointments">
+            <h2>Umówione wizyty:</h2>
+            <ul id="scheduled-appointments-list">
+                <!-- Tutaj będą pojawiać się umówione wizyty -->
+            </ul>
+        </div>
+    </section>
+</main>
+
+  <!-- Dodaj stopkę -->
+  <footer>
+    <div class="footer-left">
+      PJATK - TIN - S3 - Marek Draczyński
+    </div>
+    <div class="footer-right">
+      Projekt interaktywnej strony Marek Draczyński
+    </div>
+  </footer>
+
+  <script src="./Umów wizytę - Planer Wizyt_files/make_appointment.js.pobrane"></script>
+
+
+</body></html>
