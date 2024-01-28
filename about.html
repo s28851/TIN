@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="lib/bootstrap/js/jquery-3.7.1.slim.min.js"></script>
+  <script src="lib/bootstrap/js/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <title>O nas - Planer Wizyt</title>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="./pic/planer_wizyt.jpg"></img>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">O nas</a></li>
+        <li class="dropdown">
+            <a href="services.html#finansowe" class="dropbtn">Nasze usługi</a>
+            <div class="sub-services-content">
+              <a href="services.html#finansowe" class="sub-services">Doradztwo finansowe</a>
+              <a href="services.html#prawne" class="sub-services">Porady prawne</a>
+              <a href="services.html#menadzerski" class="sub-services">Konsulting menadżerski</a>
+              <a href="services.html#zespol" class="sub-services">Integracje zespołów</a>
+            </div>
+          </li>
+        <li><a href="make_appointment.html">Umów wizytę</a></li>
+        <li><a href="cooperation.html">Współpraca</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+        <div class="container">
+            <div class="onaslewe">
+              <button class="btn btn-primary" onclick="changeText('naszeOsiagniecia')">Nasze Osiągnięcia</button><br><br>
+              <button class="btn btn-primary" onclick="changeText('zdobyteNagrody')">Zdobyte Nagrody</button><br><br>
+              <button class="btn btn-primary" onclick="changeText('naszZespol')">Nasz Zespół</button>
+            </div>
+            
+            <div id="displayText">
+                Nasza firma w 2023r osiągnęła wskaźnik najwyższej klikalności reklam. 
+                <br><br>Dzięki osobistemu zaangażowaniu naszego prezesa i pracowników wspieraliśmy konkurs artystyczny młodych talentów gminy Włoszczowa.
+                <br><br>Ustanowiliśmy rekord Guinessa w najdłuższej jeździe bez trzymania kierownicy Fiatem 126P.
+            </div>
+            
+        </div>
+      </section>
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      PJATK - TIN - S3 - Marek Draczyński
+    </div>
+    <div class="footer-right">
+      Projekt interaktywnej strony Marek Draczyński
+    </div>
+  </footer>
+  
+  <script src="js/about.js"></script>
+
+</body>
+</html>
